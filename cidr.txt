@@ -1,0 +1,48 @@
+The following table provides a convenient shortcut to all the CIDR prefix
+sizes, showing the number of addresses possible in each prefix and the
+number of prefixes of that size that may be numbered in the 32-bit IPv4
+address space:
+
+notation       addrs/block      # blocks
+--------       -----------     ----------
+n.n.n.n/32               1     4294967296    "host route"
+n.n.n.x/31               2     2147483648    "p2p link"
+n.n.n.x/30               4     1073741824
+n.n.n.x/29               8      536870912
+n.n.n.x/28              16      268435456
+n.n.n.x/27              32      134217728
+n.n.n.x/26              64       67108864
+n.n.n.x/25             128       33554432
+n.n.n.0/24             256       16777216    legacy "Class C"
+n.n.x.0/23             512        8388608
+n.n.x.0/22            1024        4194304
+n.n.x.0/21            2048        2097152
+n.n.x.0/20            4096        1048576
+n.n.x.0/19            8192         524288
+n.n.x.0/18           16384         262144
+n.n.x.0/17           32768         131072
+n.n.0.0/16           65536          65536    legacy "Class B"
+n.x.0.0/15          131072          32768
+n.x.0.0/14          262144          16384
+n.x.0.0/13          524288           8192
+n.x.0.0/12         1048576           4096
+n.x.0.0/11         2097152           2048
+n.x.0.0/10         4194304           1024
+n.x.0.0/9          8388608            512
+n.0.0.0/8         16777216            256    legacy "Class A"
+x.0.0.0/7         33554432            128
+x.0.0.0/6         67108864             64
+x.0.0.0/5        134217728             32
+x.0.0.0/4        268435456             16
+x.0.0.0/3        536870912              8
+x.0.0.0/2       1073741824              4
+x.0.0.0/1       2147483648              2
+0.0.0.0/0       4294967296              1    "default route"
+
+n is an 8-bit decimal octet value.
+
+x is a 1- to 7-bit value, based on the prefix length, shifted into the most
+significant bits of the octet and converted into decimal form; the least
+significant bits of the octet are zero.
+
+Source: http://www.bgp4.as/
