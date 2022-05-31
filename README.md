@@ -1,3 +1,4 @@
-# main
-Ninguém pode servir a dois senhores; porque ou irá odiar um e amar o outro, ou irá se dedicar a um e desprezar o outro. Vocês não podem servir a Deus e às riquezas.
-Mateus 6:24
+# Main
+
+
+Ninguém pode servir a dois senhores, porque ou odiará a um e amará a outro, ou se prenderá a um e desprezará o outro. Não podeis servir simultaneamente a Deus e a Mamon. (S. Lucas, 16:13.).
